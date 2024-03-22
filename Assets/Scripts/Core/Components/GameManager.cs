@@ -24,7 +24,7 @@ namespace Core.Components
         private IObjectResolver _container;
         
         private Random _random;
-        private readonly Dictionary<FallingObject, FallingObject> _collisionObjects = new();
+        private readonly HashSet<FallingObject> _collisionObjects = new();
 
         private bool _isGameOver;
         private int _score;
@@ -94,7 +94,7 @@ namespace Core.Components
             }
             else
             {
-                _collisionObjects.Add(info.Other, info.Self);
+                _collisionObjects.Add(info.Other);
             }
         }
         private void Union(in UnionInfo info)
