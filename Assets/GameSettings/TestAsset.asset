@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fcff984a642ddc44b3aaf71113df91b, type: 3}
+  m_Name: TestAsset
+  m_EditorClassIdentifier: 
+  _fallingObjects:
+  - {fileID: 3999257654536093047, guid: fec73d8ac6224e24d864ca94815a7d2b, type: 3}
+  - {fileID: 3999257654536093047, guid: d0daf14e869609245b650f4a57b5e29d, type: 3}
